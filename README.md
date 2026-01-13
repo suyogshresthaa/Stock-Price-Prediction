@@ -1,10 +1,11 @@
 # Stock Price Forecasting with ARIMAX (Time Series Analysis)
 
----
-
 ## Author
 Suyog Shrestha
+
 Data Science & Business @ Knox College - June 2027
+
+---
 
 ## Overview
 This project explores stock price forecasting using a classical **ARIMAX (AutoRegressive Integrated Moving Average with eXogenous variables)** model.  
