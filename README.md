@@ -1,5 +1,11 @@
 # Stock Price Forecasting with ARIMAX (Time Series Analysis)
 
+---
+
+## Author
+Suyog Shrestha
+Data Science & Business @ Knox College - June 2027
+
 ## Overview
 This project explores stock price forecasting using a classical **ARIMAX (AutoRegressive Integrated Moving Average with eXogenous variables)** model.  
 The goal is not to claim accurate stock prediction, but to **build, evaluate, and interpret a statistically sound time-series forecasting pipeline**, and to compare it against a strong baseline model.
@@ -10,6 +16,8 @@ The project demonstrates:
 - ARIMAX modeling using `pmdarima`
 - Baseline comparison using a naive random-walk forecast
 
+---
+
 ## How to Run This Project
 1. Clone the repository
 2. Install dependencies (pip install -r requirements.txt)
@@ -18,20 +26,7 @@ The project demonstrates:
     - Notebooks/01_feature_eng.ipynb
     - Notebooks/02_arimax_model.ipynb
 
-## Project Structure
-
-STOCK_PRICE/
-│
-├── Data/
-│ ├── BAJFINANCE.csv # Raw stock data
-│ └── BAJFINANCE_Processed.csv # Cleaned & feature-engineered dataset
-│
-├── Notebooks/
-│ ├── 01_feature_eng.ipynb # Feature engineering & data preparation
-│ └── 02_arimax_model.ipynb # ARIMAX modeling & evaluation
-│
-├── requirements.txt
-└── README.md
+---
 
 ## Modeling Approach
 
